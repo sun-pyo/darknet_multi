@@ -1,0 +1,14 @@
+start data/eagle.jpg:1603692665.133402
+end data/eagle.jpg 1603692669.616143
+start data/eagle.jpg:1603694514.083608
+end data/eagle.jpg 1603694517.005141
+start data/eagle.jpg:1603694559.095421
+end data/eagle.jpg 1603694562.034594
+start data/eagle.jpg:1603694608.590525
+end data/eagle.jpg 1603694612.384738
+start data/eagle.jpg:1605512351.377092
+end data/eagle.jpg 1605512384.725380
+start data/eagle.jpg:1606232722.253730
+end data/eagle.jpg 1606232741.962856
+start data/eagle.jpg:1606233121.191925
+end data/eagle.jpg 1606233136.240926

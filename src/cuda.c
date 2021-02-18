@@ -3,6 +3,7 @@ int gpu_index = 0;
 #ifdef GPU
 
 #include "cuda.h"
+#include "cuda_profiler_api.h"
 #include "utils.h"
 #include "blas.h"
 #include <assert.h>

@@ -397,6 +397,8 @@ void visualize(char *cfgfile, char *weightfile)
     visualize_network(net);
 }
 
+int num;
+
 int main(int argc, char **argv)
 {
     //test_resize("data/bad.jpg");
@@ -418,6 +420,7 @@ int main(int argc, char **argv)
         cuda_set_device(gpu_index);
     }
 #endif
+    num = find_int_arg(argc, argv, "-num", 0);
 
     if (0 == strcmp(argv[1], "average")){
         average(argc, argv);

@@ -1,0 +1,46 @@
+start data/eagle.jpg:1603692665.132196
+end data/eagle.jpg 1603692668.753694
+start data/eagle.jpg:1603694262.009302
+end data/eagle.jpg 1603694262.970372
+start data/eagle.jpg:1603694311.402786
+end data/eagle.jpg 1603694312.591231
+start data/eagle.jpg:1603694345.003610
+end data/eagle.jpg 1603694346.554780
+start data/eagle.jpg:1603694375.891545
+end data/eagle.jpg 1603694377.543965
+start data/eagle.jpg:1603694409.163959
+end data/eagle.jpg 1603694410.864360
+start data/eagle.jpg:1603694454.079949
+end data/eagle.jpg 1603694456.633303
+start data/eagle.jpg:1603694514.080975
+end data/eagle.jpg 1603694517.155954
+start data/eagle.jpg:1603694559.095551
+end data/eagle.jpg 1603694562.308601
+start data/eagle.jpg:1603694608.583851
+end data/eagle.jpg 1603694612.283396
+start data/eagle.jpg:1605512351.377311
+end data/eagle.jpg 1605512384.725528
+start data/eagle.jpg:1605512766.481272
+end data/eagle.jpg 1605512768.195417
+start data/eagle.jpg:1605513937.201451
+end data/eagle.jpg 1605513938.889447
+start data/eagle.jpg:1605516829.624156
+end data/eagle.jpg 1605516830.767528
+start data/eagle.jpg:1605516872.933074
+end data/eagle.jpg 1605516874.572133
+start data/eagle.jpg:1605516958.183822
+end data/eagle.jpg 1605516960.059406
+start data/eagle.jpg:1605517065.254075
+end data/eagle.jpg 1605517067.161200
+start data/eagle.jpg:1605517320.733854
+end data/eagle.jpg 1605517465.756676
+start data/eagle.jpg:1605517513.165103
+end data/eagle.jpg 1605517515.751332
+start data/eagle.jpg:1605517774.943591
+end data/eagle.jpg 1605517776.601702
+start data/eagle.jpg:1605517816.683030
+end data/eagle.jpg 1605517818.935183
+start data/eagle.jpg:1606232722.264921
+end data/eagle.jpg 1606232743.979966
+start data/eagle.jpg:1606233121.214823
+end data/eagle.jpg 1606233136.642129

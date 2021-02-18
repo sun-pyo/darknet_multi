@@ -1,0 +1,185 @@
+data/eagle.jpg: Predicted in 1.190706 seconds.
+end - 8
+71.94%: bald eagle
+22.16%: kite
+ 5.06%: vulture
+ 0.37%: hen
+ 0.10%: ruddy turnstone
+data/eagle.jpg: Predicted in 1.307225 seconds.
+end - 7
+71.94%: bald eagle
+22.16%: kite
+ 5.06%: vulture
+ 0.37%: hen
+ 0.10%: ruddy turnstone
+data/eagle.jpg: Predicted in 2.002982 seconds.
+end - 5
+71.94%: bald eagle
+22.16%: kite
+ 5.06%: vulture
+ 0.37%: hen
+ 0.10%: ruddy turnstone
+data/eagle.jpg: Predicted in 2.002913 seconds.
+end - 11
+71.94%: bald eagle
+22.16%: kite
+ 5.06%: vulture
+ 0.37%: hen
+ 0.10%: ruddy turnstone
+data/eagle.jpg: Predicted in 2.363665 seconds.
+end - 9
+71.94%: bald eagle
+22.16%: kite
+ 5.06%: vulture
+ 0.37%: hen
+ 0.10%: ruddy turnstone
+data/eagle.jpg: Predicted in 2.424360 seconds.
+end - 10
+71.94%: bald eagle
+22.16%: kite
+ 5.06%: vulture
+ 0.37%: hen
+ 0.10%: ruddy turnstone
+data/eagle.jpg: Predicted in 2.441869 seconds.
+end - 2
+71.94%: bald eagle
+22.16%: kite
+ 5.06%: vulture
+ 0.37%: hen
+ 0.10%: ruddy turnstone
+data/eagle.jpg: Predicted in 2.544423 seconds.
+end - 3
+71.94%: bald eagle
+22.16%: kite
+ 5.06%: vulture
+ 0.37%: hen
+ 0.10%: ruddy turnstone
+data/eagle.jpg: Predicted in 2.578545 seconds.
+end - 12
+data/eagle.jpg: Predicted in 2.574772 seconds.
+end - 1
+71.94%: bald eagle
+22.16%: kite
+ 5.06%: vulture
+ 0.37%: hen
+ 0.10%: ruddy turnstone
+71.94%: bald eagle
+22.16%: kite
+ 5.06%: vulture
+ 0.37%: hen
+ 0.10%: ruddy turnstone
+data/eagle.jpg: Predicted in 2.586123 seconds.
+end - 4
+71.94%: bald eagle
+22.16%: kite
+ 5.06%: vulture
+ 0.37%: hen
+ 0.10%: ruddy turnstone
+data/eagle.jpg: Predicted in 2.606900 seconds.
+end - 0
+71.94%: bald eagle
+22.16%: kite
+ 5.06%: vulture
+ 0.37%: hen
+ 0.10%: ruddy turnstone
+data/eagle.jpg: Predicted in 2.612536 seconds.
+end - 6
+71.94%: bald eagle
+22.16%: kite
+ 5.06%: vulture
+ 0.37%: hen
+ 0.10%: ruddy turnstone
+//////////////////////////////////////////////////////////////////////////////////
+
+data/eagle.jpg: Predicted in 1.030048 seconds.
+end - 5
+71.94%: bald eagle
+22.16%: kite
+ 5.06%: vulture
+ 0.37%: hen
+ 0.10%: ruddy turnstone
+data/eagle.jpg: Predicted in 1.403746 seconds.
+end - 10
+71.94%: bald eagle
+22.16%: kite
+ 5.06%: vulture
+ 0.37%: hen
+ 0.10%: ruddy turnstone
+data/eagle.jpg: Predicted in 1.940401 seconds.
+end - 0
+71.94%: bald eagle
+22.16%: kite
+ 5.06%: vulture
+ 0.37%: hen
+ 0.10%: ruddy turnstone
+data/eagle.jpg: Predicted in 2.150440 seconds.
+end - 7
+71.94%: bald eagle
+22.16%: kite
+ 5.06%: vulture
+ 0.37%: hen
+ 0.10%: ruddy turnstone
+data/eagle.jpg: Predicted in 2.252113 seconds.
+end - 4
+71.94%: bald eagle
+22.16%: kite
+ 5.06%: vulture
+ 0.37%: hen
+ 0.10%: ruddy turnstone
+data/eagle.jpg: Predicted in 2.333401 seconds.
+end - 11
+71.94%: bald eagle
+22.16%: kite
+ 5.06%: vulture
+ 0.37%: hen
+ 0.10%: ruddy turnstone
+data/eagle.jpg: Predicted in 2.406232 seconds.
+end - 8
+71.94%: bald eagle
+22.16%: kite
+ 5.06%: vulture
+ 0.37%: hen
+ 0.10%: ruddy turnstone
+data/eagle.jpg: Predicted in 2.412144 seconds.
+end - 12
+71.94%: bald eagle
+22.16%: kite
+ 5.06%: vulture
+ 0.37%: hen
+ 0.10%: ruddy turnstone
+data/eagle.jpg: Predicted in 2.417279 seconds.
+end - 2
+71.94%: bald eagle
+22.16%: kite
+ 5.06%: vulture
+ 0.37%: hen
+ 0.10%: ruddy turnstone
+data/eagle.jpg: Predicted in 2.483842 seconds.
+end - 3
+71.94%: bald eagle
+22.16%: kite
+ 5.06%: vulture
+ 0.37%: hen
+ 0.10%: ruddy turnstone
+data/eagle.jpg: Predicted in 2.547978 seconds.
+end - 1
+71.94%: bald eagle
+22.16%: kite
+ 5.06%: vulture
+ 0.37%: hen
+ 0.10%: ruddy turnstone
+data/eagle.jpg: Predicted in 2.614381 seconds.
+end - 9
+71.94%: bald eagle
+22.16%: kite
+ 5.06%: vulture
+ 0.37%: hen
+ 0.10%: ruddy turnstone
+data/eagle.jpg: Predicted in 2.636155 seconds.
+end - 6
+71.94%: bald eagle
+22.16%: kite
+ 5.06%: vulture
+ 0.37%: hen
+ 0.10%: ruddy turnstone
+

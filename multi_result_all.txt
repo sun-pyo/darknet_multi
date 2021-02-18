@@ -1,0 +1,126 @@
+data/eagle.jpg: Predicted in 0.966404 seconds.
+end - 6
+78.50%: bald eagle
+20.30%: ruddy turnstone
+ 0.32%: drake
+ 0.15%: vulture
+ 0.15%: kite
+data/eagle.jpg: Predicted in 1.105117 seconds.
+end - 7
+78.50%: bald eagle
+20.30%: ruddy turnstone
+ 0.32%: drake
+ 0.15%: vulture
+ 0.15%: kite
+data/eagle.jpg: Predicted in 1.703807 seconds.
+end - 3
+87.56%: bald eagle
+10.98%: kite
+ 1.14%: ruddy turnstone
+ 0.05%: ptarmigan
+ 0.03%: vulture
+data/eagle.jpg: Predicted in 1.823887 seconds.
+end - 2
+87.56%: bald eagle
+10.98%: kite
+ 1.14%: ruddy turnstone
+ 0.05%: ptarmigan
+ 0.03%: vulture
+data/eagle.jpg: Predicted in 1.875528 seconds.
+end - 4
+92.36%: bald eagle
+ 7.36%: kite
+ 0.27%: vulture
+ 0.00%: albatross
+ 0.00%: ruddy turnstone
+data/eagle.jpg: Predicted in 1.892127 seconds.
+end - 1
+71.94%: bald eagle
+22.16%: kite
+ 5.06%: vulture
+ 0.37%: hen
+ 0.10%: ruddy turnstone
+data/eagle.jpg: Predicted in 1.972393 seconds.
+end - 0
+71.94%: bald eagle
+22.16%: kite
+ 5.06%: vulture
+ 0.37%: hen
+ 0.10%: ruddy turnstone
+data/eagle.jpg: Predicted in 1.983800 seconds.
+end - 5
+92.36%: bald eagle
+ 7.36%: kite
+ 0.27%: vulture
+ 0.00%: albatross
+ 0.00%: ruddy turnstone
+
+
+
+
+
+
+
+
+
+
+
+data/eagle.jpg: Predicted in 1.021331 seconds.
+end - 7
+78.50%: bald eagle
+20.30%: ruddy turnstone
+ 0.32%: drake
+ 0.15%: vulture
+ 0.15%: kite
+data/eagle.jpg: Predicted in 1.023361 seconds.
+end - 6
+78.50%: bald eagle
+20.30%: ruddy turnstone
+ 0.32%: drake
+ 0.15%: vulture
+ 0.15%: kite
+data/eagle.jpg: Predicted in 1.477476 seconds.
+end - 1
+71.94%: bald eagle
+22.16%: kite
+ 5.06%: vulture
+ 0.37%: hen
+ 0.10%: ruddy turnstone
+data/eagle.jpg: Predicted in 1.598158 seconds.
+end - 0
+71.94%: bald eagle
+22.16%: kite
+ 5.06%: vulture
+ 0.37%: hen
+ 0.10%: ruddy turnstone
+data/eagle.jpg: Predicted in 1.738796 seconds.
+end - 3
+87.56%: bald eagle
+10.98%: kite
+ 1.14%: ruddy turnstone
+ 0.05%: ptarmigan
+ 0.03%: vulture
+data/eagle.jpg: Predicted in 1.865259 seconds.
+end - 2
+87.56%: bald eagle
+10.98%: kite
+ 1.14%: ruddy turnstone
+ 0.05%: ptarmigan
+ 0.03%: vulture
+data/eagle.jpg: Predicted in 1.874438 seconds.
+end - 5
+92.36%: bald eagle
+ 7.36%: kite
+ 0.27%: vulture
+ 0.00%: albatross
+ 0.00%: ruddy turnstone
+data/eagle.jpg: Predicted in 1.907048 seconds.
+end - 4
+92.36%: bald eagle
+ 7.36%: kite
+ 0.27%: vulture
+ 0.00%: albatross
+ 0.00%: ruddy turnstone
+
+
+

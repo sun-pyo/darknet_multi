@@ -195,18 +195,21 @@ void forward_network(network *netp)
 #endif
     network net = *netp;
     int i;
+    FILE * fp = fopen("cpu.txt", "a+");
     for(i = 0; i < net.n; ++i){
         net.index = i;
         layer l = net.layers[i];
         if(l.delta){
             fill_cpu(l.outputs * l.batch, 0, l.delta, 1);
         }
+	fprintf(fp,"%d,%d,%lf\n", num, i, what_time_is_it_now());
         l.forward(l, net);
         net.input = l.output;
         if(l.truth) {
             net.truth = l.output;
         }
     }
+    fclose(fp);
     calc_network_cost(netp);
 }
 
@@ -767,14 +770,16 @@ void forward_network_gpu(network *netp)
     if(net.truth){
         cuda_push_array(net.truth_gpu, net.truth, net.truths*net.batch);
     }
-
+    cudaProfilerStart();
     int i;
+    FILE * fp = fopen("cpu.txt", "a+");
     for(i = 0; i < net.n; ++i){
         net.index = i;
         layer l = net.layers[i];
         if(l.delta_gpu){
             fill_gpu(l.outputs * l.batch, 0, l.delta_gpu, 1);
         }
+	fprintf(fp,"%d,%d,%lf\n", num, i, what_time_is_it_now());
         l.forward_gpu(l, net);
         net.input_gpu = l.output_gpu;
         net.input = l.output;
@@ -783,6 +788,8 @@ void forward_network_gpu(network *netp)
             net.truth = l.output;
         }
     }
+    cudaProfilerStop();
+    fclose(fp);
     pull_network_output(netp);
     calc_network_cost(netp);
 }

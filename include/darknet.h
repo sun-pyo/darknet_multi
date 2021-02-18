@@ -23,7 +23,7 @@ extern "C" {
 
 #define SECRET_NUM -1234
 extern int gpu_index;
-
+extern int num;
 typedef struct{
     int classes;
     char **names;

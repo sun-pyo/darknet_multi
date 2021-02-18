@@ -559,6 +559,7 @@ void try_classifier(char *datacfg, char *cfgfile, char *weightfile, char *filena
 
 void predict_classifier(char *datacfg, char *cfgfile, char *weightfile, char *filename, int top)
 {
+    FILE *ffp = fopen("multi-processor.txt","a");
     network *net = load_network(cfgfile, weightfile, 0);
     set_batch_network(net, 1);
     srand(2222222);
@@ -571,7 +572,7 @@ void predict_classifier(char *datacfg, char *cfgfile, char *weightfile, char *fi
 
     int i = 0;
     char **names = get_labels(name_list);
-    clock_t time;
+   double time,time2;
     int *indexes = calloc(top, sizeof(int));
     char buff[256];
     char *input = buff;
@@ -591,13 +592,40 @@ void predict_classifier(char *datacfg, char *cfgfile, char *weightfile, char *fi
         //printf("%d %d\n", r.w, r.h);
         //resize_network(net, r.w, r.h);
         //printf("%d %d\n", r.w, r.h);
+	char buffer[100];
 
+	int sw = 0;
+	printf("ready-%d\n", num);
+	while(1){
+		FILE * fpp = fopen("switch.txt", "r+");
+		if(fpp == NULL){
+			continue;
+		}
+		fscanf(fpp, "%d", &sw);
+		if(sw == 1){
+			break;
+		}
+//		usleep(10);
+		fclose(fpp);
+	}
+	sprintf(buffer, "time-%d.txt", num);
+	printf("start - %d\n", num);
+FILE* fp = fopen(buffer,"a+");
         float *X = r.data;
-        time=clock();
+        time=what_time_is_it_now();
+        fprintf(fp, "start %s:%lf\n", input,time);
         float *predictions = network_predict(net, X);
         if(net->hierarchy) hierarchy_predictions(predictions, net->outputs, net->hierarchy, 1, 1);
         top_k(predictions, net->outputs, top, indexes);
-        fprintf(stderr, "%s: Predicted in %f seconds.\n", input, sec(clock()-time));
+	time2=what_time_is_it_now();
+
+      printf("%s: Predicted in %lf seconds.\n", input, time2-time);
+	fprintf(ffp,"%lf\n", time2-time);
+
+        fprintf(fp, "end %s %lf\n", input, what_time_is_it_now());
+	printf("end - %d\n", num);
+	fclose(fp);
+	fclose(ffp);
         for(i = 0; i < top; ++i){
             int index = indexes[i];
             //if(net->hierarchy) printf("%d, %s: %f, parent: %s \n",index, names[index], predictions[index], (net->hierarchy->parent[index] >= 0) ? names[net->hierarchy->parent[index]] : "Root");
